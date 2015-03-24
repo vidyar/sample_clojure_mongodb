@@ -17,3 +17,5 @@ before_script:
 script:
   - cd sample
   - lein test
+
+archive: true
