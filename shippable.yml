@@ -19,3 +19,5 @@ script:
   - lein test
 
 archive: true
+
+build_image: shippable/minv2
