@@ -1,7 +1,6 @@
 # Language setting
 language: clojure
 
-
 lein:
   - lein2
 
