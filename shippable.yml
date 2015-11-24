@@ -5,6 +5,7 @@ lein:
   - lein2
 
 env:
+ - secure: LuWq+TUZC4d3SvOq+AP1DzMzl+hjeZczt8AzxLmfRKjMyOpwyCpDseUMN7s8zKgU7Zzm3gGa5OWzOplfCnQ5cEejKJxgtTyTPTzi+yh19qJFq127rGveItH8gKYE6uRzs91EEQIFZWoLwGSSq8p0s+GJXuYyTHUtfJSw97JgJPrgVyWwC8peCoHzds+nKGS4gVx3wmGmOaxPQVUcT/QU3Kokg/d0GdeThTGbVtMIdw7q7FedR8lZHzeKx9v7mW7MP/aUziNnfqNdGGnFCM1039Aa93sHKTQ8Ftl4g4IcgxaUyPY3g3VTpjs0EgFvidB+BQhJH2HaLdq0/imJadhL8w==
  - secure: Fjb/e7ZyHu3A6h3oEvHS9X0F4yJD0GVLvTBX/cfg5iQepampXewQkV1+tISUN7bb4iZxhlLNEohTM9y9p+ngiP/AkpO3pVnRQO6qJsv/yToIfQCI7N5/lQgJMemqVIsJdUfJ9wY3koryCM3NCKM99s60LUz9auAS6TpI3/mBFrsvukYoRXooQZWvD8l8BZh71uXSmQJMUvmHL8giCjs+pCgUM8syCtqh6ywORu/Oq/xFbx49c2qQ2gyUaQb6VcL0rxGlE39pZnESaYx1/7TPCnrehT56rBUG/MCBpC2YFPag5mon6ELNpkqmnzsVBz7sTuIkV+sQuOLHIlffHK2aDg==
 # Services used by app
 services:
@@ -14,7 +15,7 @@ services:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-  - echo $test1
+  - echo $test1 and $key2
 # Running the test with Leiningen
 script:
   - cd sample
