@@ -4,6 +4,8 @@ language: clojure
 lein:
   - lein2
 
+env:
+ - secure: Fjb/e7ZyHu3A6h3oEvHS9X0F4yJD0GVLvTBX/cfg5iQepampXewQkV1+tISUN7bb4iZxhlLNEohTM9y9p+ngiP/AkpO3pVnRQO6qJsv/yToIfQCI7N5/lQgJMemqVIsJdUfJ9wY3koryCM3NCKM99s60LUz9auAS6TpI3/mBFrsvukYoRXooQZWvD8l8BZh71uXSmQJMUvmHL8giCjs+pCgUM8syCtqh6ywORu/Oq/xFbx49c2qQ2gyUaQb6VcL0rxGlE39pZnESaYx1/7TPCnrehT56rBUG/MCBpC2YFPag5mon6ELNpkqmnzsVBz7sTuIkV+sQuOLHIlffHK2aDg==
 # Services used by app
 services:
   - mongodb
@@ -12,7 +14,7 @@ services:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-
+  - echo $test1
 # Running the test with Leiningen
 script:
   - cd sample
@@ -20,4 +22,4 @@ script:
 
 archive: true
 
-build_image: shippable/minv2
+#build_image: shippable/minv2
