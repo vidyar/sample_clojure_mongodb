@@ -5,7 +5,10 @@ lein:
   - lein2
 
 env:
- #global:
+ global:
+   - foo=bar
+   - aa=bb
+ matrix:
    - secure: gZBNVw9yaqH+Yo1owlr86/Urn3urzoMUvhuHFjZ5sDbBD+6uHv0eVO6YbKGcNpXlyv133XIHUyIx9FPzMXOYx1sQaMxml7GCicfqJVr4VdsZMNmbL2FzYJv7ym1/DpnrAgTF7iT0NKHYX++c9zkFJpb5UAgooz6W0XMFyNgFlpRqx/cnU67RpVhu2tHwyEnsAsKfqlaM/kIAZ0m+IDUhRjDktSDSnJTiOSoYV/vjkRPZaNlJRCB/FCKe6WOVEPJAIQYlXVLJnp1eycOKgbxrmus/rn7cbqBLWsdSaiYoFTYdU1vvMM21+5b2chNYBBG2RWPO4D1JB06Tuq1ElfD77g==
  #- secure: AgHFcP0sS4kId4ZE/WYDaf811YNqXEFFPr/pVUj0GC555bVajxrf240m6ogXOAypT6vSeD2m1MWGLBMdJlkMq36IaX+9YOrZzSWK6oQuMwo8WCDYgWZm9Wn+8aT5QI2oaDNUixLPHhuKWaYubT5h4qAIO+phOga24tXhnAznKhJ5B9Fd9dFOxjWjAb/Egt04HjmWdiKUhWDllRFcGZ+S97b8tUlj8nHSgtiRtNjrWIiMhj8uEziYKfY+jZDNDszimBdWb0OIv7q3N/fitIFjCzzP6M++MiZYcf3hXwsMrGvQ/cVvx5XAutedysEv1DSxVFyOqlR1c1552TCjhUVycg==
 # Services used by app
